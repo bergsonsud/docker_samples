@@ -5,6 +5,11 @@
     docker-compose up
 
 
+#### Create role
+    psql -h localhost -U postgres
+    CREATE ROLE username superuser;
+    ALTER ROLE username WITH LOGIN;
+
 ## Extra
 using custom port 5434
 
