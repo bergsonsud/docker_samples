@@ -10,6 +10,10 @@
     CREATE ROLE username superuser;
     ALTER ROLE username WITH LOGIN;
 
+    CREATE ROLE root superuser;
+    ALTER ROLE root WITH LOGIN;
+
+
 ## Extra
 using custom port 5434
 
